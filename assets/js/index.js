@@ -8,14 +8,6 @@
     01. Pseudo code
     02. Events
     03. Functions
-    04. 
-    05. 
-    06. 
-    07. 
-    08. 
-    09. 
-    10. 
-    11. 
 
 ----------------------------------------*/
 
@@ -37,7 +29,7 @@ const errorList = document.querySelector("#errorList");
 
 const siteNameRegex = /^[a-zA-Z0-9_ ]{3,}$/;
 const siteURLRegex =
-  /^(https?:\/\/)?(www\.)?([a-zA-Z0-9-]+\.){1,}[a-zA-Z]{2,}(\/[^\s]*)?$/;
+  /^(https?:\/\/)(www\.)?([a-zA-Z0-9-]+\.){1,}[a-zA-Z]{2,}(\/[^\s]*)?$/;
 
 const bookmarksList = JSON.parse(localStorage.getItem("bookmarksList")) || [];
 updateUIList();
