@@ -1,8 +1,8 @@
 /*----------------------------------------
 
-    Project Name
+    Project: Bookmarker
     
-    CSS INDEX
+    JS INDEX
     ===================
     00. Variables
     01. Pseudo code
